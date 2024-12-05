@@ -26,7 +26,6 @@
 
 
 
-
 7. ASLR (Address Space Layout Randomization)
 - Security mechanism randomizing memory addresses
 - Prevents code injection and memory scanning
