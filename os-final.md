@@ -99,18 +99,17 @@ Max?  All sleeping, including any system processes.  So 160+.  Min?  Does sleepi
     - RAID0 (striping) improved performance without fault tolerance
     - RAID1 (mirroring) provides data redundancy by creating exact copies of data across multiple drives
 2. Held Mellor-Crummey-Scott lock typically spin-waits how many threads? 0? 1? 2? Some? All?
-    - typically spin-waits 1 thread while others wait to reduce contention
+    - typically spin-waits all except the one that's currently running to reduce contention
+
 3. Give a definition of bounded waiting that can be determined quickly and is useful.
     - A synchronization mechanism where a thread waiting to enter a critical section is guaranteed to eventually gain access, with a finite maximum number of times other threads can enter the critical section before it.
 4. Why is an inverted PT implemented with a collision chain list in software but an n-way associative array in hardware?
-    - Software can handle more complex data structures like collision chair lists
-    -  Software allows dynamic memory allocation and flexible chaining
+    - Software allows dynamic memory allocation and can handle more complex data structures flexible chaining
     - Hardware implementations require fixed-size, predictable access times
     - Hardware uses n-way associative arrays for faster, parallel lookups with dedicated circuit logic
 
 5. What does History BAC stand for in security? Who introduced the idea first? (Chat hallucinates)
-    - `copilot` : History-Based Access Control (HBAC). Introduced by Butler Lampson. 
-    - `gpt` : History-based Access Control (History BAC) is a model where access decisions depend on previous actions. It was introduced by A. K. K. Chen in the 1990s.
+    - History-Based Access Control (HBAC). Introduced by Guy Edijali in 1998
 6. What does kswappiness control in Linux?
     - It determines how aggressively the kernel will swap memory pages.
     -  controls the balance between swapping process memory to disk and keeping processes in RAM.
@@ -123,9 +122,10 @@ Max?  All sleeping, including any system processes.  So 160+.  Min?  Does sleepi
 
 9. 160GB RAM, 256 cores, 64-bit machines everywhere. What important issues remain for the modern OS student to study? One is user interface. Name two more. (Chat is wrong)
     - Security and privacy
-    - Energy efficiency and power management
+    - Parallelism (managing a huge number of cores)
+
 10. Why is sem_trywait so badly named? What should it be called?
-    - it doesn't actually wait, so maybe it should be named sem_tryacquire to reflect its non blocking behaviour
+    - it doesn't actually wait, so maybe it should be named sem_tryacquire to reflect its non blocking behaviour 
 
 ## Private Section
 ### 5 PRIVATE QUESTIONS (1pt each)
