@@ -16,7 +16,7 @@ const ProjectsPage: NextPage = () => {
           
           <div className="mt-6">
             <div className="flex flex-col max-w-3xl space-y-3">
-            <PillButton href="https://archive.ignasxv.com">teKsafari .ORG</PillButton>
+            <PillButton href="https://teksafari.org">teKsafari .ORG</PillButton>
             <PillButton href="https://floracc.vercel.app">Flora Systems</PillButton>
             <PillButton href="https://klariti.org">Klariti OS</PillButton>
             <PillButton href="https://math.teksafari.org">MathSafari Kits</PillButton>
