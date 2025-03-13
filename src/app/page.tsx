@@ -85,17 +85,14 @@ const HomePage: NextPage = () => {
           <section className="w-full max-w-xl mx-auto mt-44">
             <h1 className="text-xl text-[#c9c1b4] font-medium">Hey, I&apos;m Ignas XV.</h1>
             <p className="mt-4 text-[#676767]">
-            <s>I believe that</s>, We all have a moral responsibility to be {" "}
+              <s>I believe that</s>, We all have a moral responsibility to be {" "}
               <span className="border-b text-transparent bg-clip-text bg-gradient-to-r from-[#D4D4AD] to-[#2979a7] border-[#242424] py-1">
                 great.
               </span>
               <br /> <br />
               In this public repository, I document my successes, 
-              my failures, and the lessons learned in my pursuit of "that" responsibility.            
+              my failures, and the lessons learned in my pursuit of &quot;that&quot; responsibility.            
             </p>
-           
-
-
             <div className="mt-8">
               <p className="text-[#676767]">
                 <span className="text-[#676767] border-b  border-[#242424] py-2 pr-1">
