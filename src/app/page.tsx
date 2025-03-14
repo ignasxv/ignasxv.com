@@ -96,7 +96,8 @@ const HomePage: NextPage = () => {
               <span className="border-b text-transparent bg-clip-text bg-gradient-to-r from-[#c0649e] to-[#2979a7] border-[#242424] py-1">
                 great.
               </span>
-              <br /> <br />
+               <br /> <em> — by +vely impacting others. </em>
+              <br /><br />
               In this public repository, I document my successes, my failures,
               and the lessons learned in my pursuit of &quot;that&quot;
               responsibility.
