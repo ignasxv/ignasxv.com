@@ -58,21 +58,21 @@ const HomePage: NextPage = () => {
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      name: "Nitesh Kumar Niranjan",
-      url: "https://theux.dev",
+      name: "ignas XV",
+      url: "https://ignasxv.com",
       sameAs: [
-        "https://x.com/niranjannitesh",
-        "https://www.linkedin.com/in/niranjannitesh/",
-        "https://dribbble.com/niranjannitesh",
-        "https://github.com/niranjannitesh",
-        "https://vaya.so/",
+        "https://x.com/ignasxv",
+        "https://www.linkedin.com/in/ignasxv/",
+        "https://dribbble.com/ignasxv",
+        "https://github.com/ignasxv",
+        "https://teksafari.org/",
       ],
     },
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Nitesh Kumar Niranjan",
-      url: "https://theux.dev",
+      name: "ignas xv",
+      url: "https://ignasxv.com",
     },
   ]);
   return (
