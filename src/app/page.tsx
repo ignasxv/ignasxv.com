@@ -96,14 +96,21 @@ const HomePage: NextPage = () => {
               <span className="border-b text-transparent bg-clip-text bg-gradient-to-r from-[#c0649e] to-[#2979a7] border-[#242424] py-1">
                 great.
               </span>
-               <br /> <em> — by +vely impacting others. </em>
-              <br /><br />
+              <br />{" "}
+              <em>
+                {" "}
+                — Channeling our abilities to drive bold, life-changing impact.. on others{" "}
+              </em>
+              <br />
+              <br />
               In this public repository, I document my successes, my failures,
               and the lessons learned in my pursuit of &quot;that&quot;
               responsibility.
             </p>
             <div className="mt-8">
-                <PillButton href="https://archive.ignasxv.com">archive from 2021</PillButton>
+              <PillButton href="https://archive.ignasxv.com">
+                archive from 2021
+              </PillButton>
             </div>
 
             <div className="mt-12 text-[#676767] flex items-center gap-5">
