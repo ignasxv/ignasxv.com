@@ -96,10 +96,13 @@ const HomePage: NextPage = () => {
               <span className="border-b text-transparent bg-clip-text bg-gradient-to-r from-[#c0649e] to-[#2979a7] border-[#242424] py-1">
                 great.
               </span>
-              <br />{" "}
+              
               <em>
                 {" "}
-                — Channeling our abilities to drive bold, life-changing impact.. on others{" "}
+                — Channeling our abilities to drive life-changing impact... {" "}
+                <span className="border-b text-transparent bg-clip-text bg-gradient-to-r from-[#9696bb] to-[#bddb36] border-[#242424] py-1">
+                on others{" "}
+              </span>
               </em>
               <br />
               <br />
