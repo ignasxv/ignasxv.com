@@ -9,7 +9,7 @@ const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         backgroundImage: `url(/img/bg-noise.png)`,
       }}
     >
-      <div className="fixed top-0 h-[2px] bg-gradient-to-r from-[#A855F7] to-[#F59E0B] w-full"></div>
+      <div className="fixed top-0 h-[2px] bg-gradient-to-r from-[#a9937a] to-[#06c2d6] w-full"></div>
       {children}
       <Navigation />
     </div>

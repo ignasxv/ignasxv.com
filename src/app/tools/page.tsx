@@ -3,7 +3,7 @@ import { Metadata, NextPage } from "next"
 import Head from "next/head"
 
 export const metadata: Metadata = {
-  title: "Tools — theux.dev",
+  title: "Tools — Ignasxv.com",
 }
 
 const ToolsPage: NextPage = () => {

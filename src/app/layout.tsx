@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
-      <body className="font-sans antialiased text-white bg-x-black selection:bg-white/10">
+      <body className="font-sans antialiased text-white bg-[#101010] selection:bg-white/10">
         <BaseLayout>{children}</BaseLayout>
       </body>
     </html>
