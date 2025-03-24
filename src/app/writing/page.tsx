@@ -35,6 +35,7 @@ const WritingPage: NextPage = () => {
                 </Card.Description>
                 {/* <Card.Cta>Read article</Card.Cta> */}
               </Card>
+              
             </div>
           </div>
         </main>
