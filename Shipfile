@@ -1,4 +1,7 @@
+# Shipfile
+
 script: |
   npm install
   npm run export
+
 run: serve out -p 8080
