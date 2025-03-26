@@ -7,7 +7,7 @@ export const eventType = defineType({
     fields: [ 
         defineField({
             name: "name",
-            type: "string",
-        }),
+            type: "string"
+        })
     ]
 });
