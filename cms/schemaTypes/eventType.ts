@@ -1,13 +1,13 @@
-// import { defineField, defineType } from "sanity";
+import { defineField, defineType } from "sanity";
 
-// export const eventType = defineType({
-//     name: "event",
-//     title: "Event",
-//     type: "document",
-//     fields: [ 
-//         defineField({
-//             name: "name",
-//             type: "string"
-//         })
-//     ] 
-// });
+export const eventType = defineType({
+    name: "event",
+    title: "Event",
+    type: "document",
+    fields: [ 
+        defineField({
+            name: "name",
+            type: "string"
+        })
+    ] 
+});
