@@ -17,7 +17,7 @@ const WritingPage: NextPage = () => {
             <div className="flex flex-col max-w-3xl space-y-16">
               <Card className="p-4 rounded-lg border-[0.5px] border-[#484545]">
                 <Card.Eyebrow decorate>March 2025</Card.Eyebrow>
-                <Card.Title href="/writing/sample-post">
+                <Card.Title>
                   Why do you keep your promises?
                 </Card.Title>
                 <Card.Description>
