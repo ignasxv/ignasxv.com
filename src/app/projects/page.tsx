@@ -20,6 +20,8 @@ const ProjectsPage: NextPage = () => {
             <PillButton href="https://floracc.vercel.app">Flora Systems</PillButton>
             <PillButton href="https://klariti.org">Klariti OS</PillButton>
             <PillButton href="https://math.teksafari.org">MathSafari Kits</PillButton>
+            <PillButton href="https://orun.vercel.app">ORUN</PillButton>
+            <PillButton href="https://sayari.tz">SAYARI</PillButton>
             </div>
           </div>
         </main>
