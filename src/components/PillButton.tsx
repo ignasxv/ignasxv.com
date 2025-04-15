@@ -6,7 +6,7 @@ interface PillButtonProps {
 
 const PillButton: React.FC<PillButtonProps> = ({ href, children, className = '' }) => {
     return (
-        <a href={href} target="_blank" rel="noreferrer">
+        <a href={href} rel="noreferrer">
             <span className={`italic bg-[#0F0F0F] font-mono text-[#676767] inline-flex items-center gap-2 border border-[#161616] px-5 py-2 rounded-xl font-medium ${className}`}>
                 {children}
                 <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} className="w-4 h-4">
